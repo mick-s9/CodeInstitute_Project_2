@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Music Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Handjet&display=swap" rel="stylesheet">
+  </head>
+</head>
+<body>
+  <div id="glitched-blocks" class="glitched-blocks"></div>
+  <div class="quiz-container">
+    <h1>Electronic Music Quiz</h1>
+    <p id="rules-game"></p>
+    <div class="user-section">
+      <input type="text" id="username" placeholder="Enter your username">
+      <button onclick="startQuiz()">Start Quiz</button>
+    </div>
+    <div class="quiz-section">
+      <h2 id="question"></h2>
+      <div class="options">
+        <button onclick="checkAnswer(0)" id="option0"></button>
+        <button onclick="checkAnswer(1)" id="option1"></button>
+        <button onclick="checkAnswer(2)" id="option2"></button>
+        <button onclick="checkAnswer(3)" id="option3"></button>
+      </div>
+      <div class="feedback">
+        <div id="div-feedback">
+          <img id="correct-img" class="img-feedback" src="./resources/correctAsset.png">
+          <img id="incorrect-img" class="img-feedback" src="./resources/incorrectAsset.png">
+          <p id="feedback-text"></p>
+        </div>
+        <button onclick="nextQuestion()">Next Question</button>
+      </div>
+    </div>
+    <div id="score-section" class="score-section">
+      <h2>Score: <span id="score">0</span></h2>
+    </div>
+    <div id="level-section" class="level-section">
+      <h2>Level: <span id="level">1</span></h2>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
