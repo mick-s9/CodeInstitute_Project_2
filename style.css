@@ -11,7 +11,6 @@
   border-radius: 52px;
 }
 
-
 .old-computer {
   max-width: 600px;
   margin: 0 auto;
@@ -157,11 +156,9 @@ h1 {
   font-size: 24px;
 }
 
-#rules-game{
+#rules-game {
   font-size: 24px;
 }
-
-
 
 
 /* animation css */
@@ -187,7 +184,7 @@ body {
   pointer-events: none;
   z-index: -1;
   animation: glitchedBlocks 3s steps(12) infinite;
-  background: linear-gradient(-90deg, #0f0 2%, #113915e3 0%, #000000e3 146%, #0f0 0%, #0f0 0%, #115818e3 0%, #125619e3);
+  background: linear-gradient(-90deg, #0f0 1%, #050d06e3 0%, #000000e3 146%, #0f0 0%, #0f0 0%, #115818e3 0%, #125619e3);
   background-size: 380px 100%;
 }
 
@@ -202,24 +199,48 @@ body {
 }
 
 
-
 /* Media query for smaller screens */
 @media (max-width: 500px) {
   .quiz-container {
-    padding: 40px;
+    padding: 10px;
     margin: 10px;
+    border-radius: 25px;
   }
 
-  #rules-game{
+  #rules-game {
     font-size: 18px;
   }
 
   .glitched-blocks {
-    background: linear-gradient(-90deg, #0f0 4%, #113915e3 0%, #000000e3 146%, #0f0 0%, #0f0 0%, #115818e3 0%, #125619e3);
+    background: linear-gradient(-90deg, #0f0 4%, #050d06e3 0%, #000000e3 146%, #0f0 0%, #0f0 0%, #115818e3 0%, #125619e3);
     background-size: 120px 100%;
   }
 
   .options {
     grid-template-columns: 1fr;
   }
+
+  .quiz-container h1 {
+    font-size: 23px;
+  }
+
+  .user-section input[type="text"] {
+    margin-bottom: 16px;
+  }
+
+  .options button {
+    padding: 10px;
+  }
+
+  .level-section h2 {
+    font-size: 24px;
+  }
+  .score-section h2 {
+    font-size: 24px;
+  }
+
+  .img-feedback {
+    width: 32px;
+    margin-bottom: 8px;
+}
 }

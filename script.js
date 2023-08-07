@@ -1,4 +1,4 @@
-// Sample quiz data for Level 1 (Electronic Music Theme)
+
 const quizDataLevel1 = [
   {
     question: "Who is known as the 'Father of Electronic Music'?",
@@ -22,7 +22,6 @@ const quizDataLevel1 = [
   },
 ];
 
-// Sample quiz data for Level 2 (Electronic Music Theme)
 const quizDataLevel2 = [
   {
     question: "Which artist is known for pioneering the genre of 'Chillwave'?",
@@ -46,7 +45,6 @@ const quizDataLevel2 = [
   },
 ];
 
-// Sample quiz data for Level 3 (Electronic Music Theme)
 const quizDataLevel3 = [
   {
     question: "What year was the Roland TR-808 drum machine released?",
@@ -70,21 +68,12 @@ const quizDataLevel3 = [
   },
 ];
 
-
-
-
-//animation js
-
-
-
-
-
 let currentQuestion = 0;
 let score = 0;
 let currentLevel = 1;
-let level1IncorrectAnswers = 0; // Track the number of incorrect answers in Level 1
-let level2IncorrectAnswers = 0; // Track the number of incorrect answers in Level 2
-let level3IncorrectAnswers = 0; // Track the number of incorrect answers in Level 3
+let level1IncorrectAnswers = 0;
+let level2IncorrectAnswers = 0;
+let level3IncorrectAnswers = 0;
 
 const startQuiz = () => {
   const username = document.getElementById("username").value;
@@ -122,6 +111,7 @@ const showQuestion = () => {
 
   if (!currentQuizData) {
     questionElement.innerText = "Quiz completed!";
+    document.getElementById("rules-game").style.display = "none";
     optionsElements.forEach((option) => (option.style.display = "none"));
     feedbackElement.style.display = "none";
     document.getElementById("score-section").style.display = "none";
@@ -259,4 +249,5 @@ const gameOver = (isWin) => {
   document.querySelector(".feedback").style.display = "none";
   document.querySelector(".level-section").style.display = "none";
   document.getElementById("score").innerText = isWin ? "You Win" : "You Lose";
+  document.getElementById("rules-game").style.display = "none";
 };
