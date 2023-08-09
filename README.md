@@ -4,6 +4,9 @@ Electronic music Quiz it's an online quiz game talking about electronic music. A
 enthusiast, or simply curious about the beats that get the world dancing? Step into the electrifying realm of
 soundscapes, synthesizers, and pulsating rhythms with the Electronic Music Quiz Challenge!
 
+<img width="1104" alt="image" src="https://github.com/mick-s9/CodeInstitute_Project_2/assets/65968792/9cda5726-03e6-41e3-abb3-97ee8415ce7a">
+
+
 <h1>Features</h1>
 
 <h3>Starting page</h3>
@@ -61,8 +64,6 @@ move on to the next question:
 
 <h1>Testing and Quality Assurance</h1>
 
-<h1>Testing and Quality Assurance</h1>
-
 <h2>Ensuring a Seamless Experience</h2>
 <p>
     In the process of developing the online quiz game, rigorous testing was carried out to guarantee that all features
@@ -74,16 +75,10 @@ move on to the next question:
 <p>
     Each feature of the quiz game was examined to ensure its proper functionality:
 <ul>
-    <li>Question Presentation: Questions were displayed accurately, with the correct text, images, and sound samples
-        where applicable.</li>
-    <li>Answer Options: Multiple-choice answers were presented appropriately, allowing users to make their selections
-        without any glitches.</li>
-    <li>Score Calculation: The scoring mechanism was thoroughly tested to confirm that points were awarded accurately
-        based on correct answers.</li>
-    <li>Progression: Users advanced through questions seamlessly, with the next question loading promptly upon
-        selection.</li>
-    <li>Completion: The quiz concluded correctly, displaying the final score and appropriate messages to celebrate user
-        achievements.</li>
+    <li>Presentation of the application: the questions were displayed accurately, with text, images.</li>
+    <li>Answer Options: Multiple choice answers have been presented appropriately, allowing users to make their own selections seamlessly.</li>
+    <li>Scoring: The scoring mechanism has been thoroughly tested to confirm that points are awarded accurately based on correct answers.</li>
+    <li>Progression: Users progress through questions seamlessly, with the next question loading promptly upon selection.</li>
 </ul>
 </p>
 
@@ -107,28 +102,30 @@ move on to the next question:
         to best practices.</li>
     <li>CSS: The CSS code was validated using the official (Jigsaw) validator, which found no errors, ensuring a robust
         and compliant styling implementation.</li>
+    <li>CSS: The Js code was validated using jshint.com </li>
 </ul>
 </p>
 
-<h2>Unfixed Bugs and Challenges</h2>
-<p>
-    While significant efforts were invested in testing, a few challenges were encountered:
-<ul>
-    <li>[Describe Bug 1]: A brief description of the bug or issue, along with its impact on the user experience.</li>
-    <li>[Describe Bug 2]: Another bug or issue that was identified during testing.</li>
-</ul>
-These challenges were not addressed in this release due to [reasons], which might include limitations of frameworks or
-technologies, time constraints, or complexity in implementation.
-</p>
+<h1>Deployment</h1>
 
-<h2>Ongoing Improvement</h2>
-<p>
-    Although every effort was made to ensure the smooth functioning of the quiz game, user feedback is invaluable for
-    continuous improvement. As the project evolves, these insights will be considered to address any undiscovered issues
-    and elevate the overall quality of the experience.
-</p>
+<p>The site was deployed to GitHub Pages. The steps to deploy are as follows:</p>
+    <ul>
+        <li>In the GitHub repository, navigate to the Settings tab</li>
+        <li>From the source section drop-down menu, select the Master Branch</li>
+        <li>Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.</li>
+    </ul>
 
-<p>
-    For a more detailed breakdown of testing results, including specific bug reports and further analysis, refer to the
-    separate <a href="link-to-testing-report.md">Testing Report</a>.
-</p>
+<p>The live link can be found <a href="https://mick-s9.github.io/CodeInstitute_Project_2/">here</a>.</p>
+
+<h1>Design</h1>
+<h2>Colour Scheme</h2>
+<p>The two main colours used are black, and green: is inspired by the graphics of old computers and video games.</p>
+    
+<h2>Typography</h2>
+<p>The font used in the game was Handjet, this font is associated with old computers and videogame often evoke a sense of nostalgia and retro aesthetics. </p>
+
+<h1>Content</h1>
+<p>All content was written by the developer.</p>
+<p>The font Handjet was imported from google font</p>
+<h2>Media</h2>
+<p>All Images were created by the developer.</p>
