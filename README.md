@@ -128,4 +128,8 @@ move on to the next question:
 <p>All content was written by the developer.</p>
 <p>The font Handjet was imported from google font</p>
 <h2>Media</h2>
+<<<<<<< HEAD
 <p>All Images were created by the developer.</p>
+=======
+<p>All Images were created by the developer.</p>
+>>>>>>> ef35b1bfaa353fcabbbb9937cc034ea84cc3d81a
