@@ -107,7 +107,6 @@ const showQuestion = () => {
   const questionElement = document.getElementById("question");
   const optionsElements = document.querySelectorAll(".options button");
   const feedbackElement = document.querySelector(".feedback");
-  const feedbackTextElement = document.getElementById("feedback-text");
 
   const currentQuizData = getCurrentQuizData();
 
