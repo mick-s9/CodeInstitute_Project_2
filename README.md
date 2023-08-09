@@ -4,6 +4,9 @@ Electronic music Quiz it's an online quiz game talking about electronic music. A
 enthusiast, or simply curious about the beats that get the world dancing? Step into the electrifying realm of
 soundscapes, synthesizers, and pulsating rhythms with the Electronic Music Quiz Challenge!
 
+<img width="1104" alt="image" src="https://github.com/mick-s9/CodeInstitute_Project_2/assets/65968792/9cda5726-03e6-41e3-abb3-97ee8415ce7a">
+
+
 <h1>Features</h1>
 
 <h3>Starting page</h3>
@@ -99,11 +102,11 @@ move on to the next question:
         to best practices.</li>
     <li>CSS: The CSS code was validated using the official (Jigsaw) validator, which found no errors, ensuring a robust
         and compliant styling implementation.</li>
+    <li>CSS: The Js code was validated using jshint.com </li>
 </ul>
 </p>
 
 <h1>Deployment</h1>
-    <p>This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)</p>
 
 <p>The site was deployed to GitHub Pages. The steps to deploy are as follows:</p>
     <ul>
@@ -120,3 +123,9 @@ move on to the next question:
     
 <h2>Typography</h2>
 <p>The font used in the game was Handjet, this font is associated with old computers and videogame often evoke a sense of nostalgia and retro aesthetics. </p>
+
+<h1>Content</h1>
+<p>All content was written by the developer.</p>
+<p>The font Handjet was imported from google font</p>
+<h2>Media</h2>
+<p>All Images were created by the developer.</p>
