@@ -7,6 +7,7 @@ Electronic music Quiz it's an online quiz game talking about electronic music. A
 <h3>Starting page</h3>
 <ul>
   <li>The welcome page allows you to enter your username and start playing by clicking on Start Quiz</li>
+  <li>In this page there is also a paragraph that lists the number of levels and the rules</li>
 </ul>
 
 
@@ -16,7 +17,25 @@ Electronic music Quiz it's an online quiz game talking about electronic music. A
 
 <h3>Game Page</h3>
 
+Inside the game page there are three section:
+
 <ul>
-  <li>The welcome page allows you to enter your username and start playing by clicking on Start Quiz</li>
+  <li>A message with your user name reminding you that you can only get one question wrong per level</li>
 </ul>
+
+<img width="553" alt="image" src="https://github.com/mick-s9/CodeInstitute_Project_2/assets/65968792/0776bd1f-d31b-4bee-ba38-c5003c937e2d">
+
+<ul>
+  <li>A section containing the question and the respective possible answers</li>
+</ul>
+
+
+<img width="534" alt="image" src="https://github.com/mick-s9/CodeInstitute_Project_2/assets/65968792/6a89e130-508a-4ee9-af7d-cc96ecfd0dd9">
+
+
+
+<ul>
+  <li>A message with your user name reminding you that you can only get one question wrong per level</li>
+</ul>
+
 
