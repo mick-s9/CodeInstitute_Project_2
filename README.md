@@ -61,8 +61,6 @@ move on to the next question:
 
 <h1>Testing and Quality Assurance</h1>
 
-<h1>Testing and Quality Assurance</h1>
-
 <h2>Ensuring a Seamless Experience</h2>
 <p>
     In the process of developing the online quiz game, rigorous testing was carried out to guarantee that all features
@@ -74,16 +72,10 @@ move on to the next question:
 <p>
     Each feature of the quiz game was examined to ensure its proper functionality:
 <ul>
-    <li>Question Presentation: Questions were displayed accurately, with the correct text, images, and sound samples
-        where applicable.</li>
-    <li>Answer Options: Multiple-choice answers were presented appropriately, allowing users to make their selections
-        without any glitches.</li>
-    <li>Score Calculation: The scoring mechanism was thoroughly tested to confirm that points were awarded accurately
-        based on correct answers.</li>
-    <li>Progression: Users advanced through questions seamlessly, with the next question loading promptly upon
-        selection.</li>
-    <li>Completion: The quiz concluded correctly, displaying the final score and appropriate messages to celebrate user
-        achievements.</li>
+    <li>Presentation of the application: the questions were displayed accurately, with text, images.</li>
+    <li>Answer Options: Multiple choice answers have been presented appropriately, allowing users to make their own selections seamlessly.</li>
+    <li>Scoring: The scoring mechanism has been thoroughly tested to confirm that points are awarded accurately based on correct answers.</li>
+    <li>Progression: Users progress through questions seamlessly, with the next question loading promptly upon selection.</li>
 </ul>
 </p>
 
@@ -121,3 +113,10 @@ move on to the next question:
     </ul>
 
 <p>The live link can be found <a href="https://mick-s9.github.io/CodeInstitute_Project_2/">here</a>.</p>
+
+<h1>Design</h1>
+<h2>Colour Scheme</h2>
+<p>The two main colours used are black, and green: is inspired by the graphics of old computers and video games.</p>
+    
+<h2>Typography</h2>
+<p>The font used in the game was Handjet, this font is associated with old computers and videogame often evoke a sense of nostalgia and retro aesthetics. </p>
