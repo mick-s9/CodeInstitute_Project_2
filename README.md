@@ -127,5 +127,3 @@ move on to the next question:
 <h1>Content</h1>
 <p>All content was written by the developer.</p>
 <p>The font Handjet was imported from google font</p>
-<h2>Media</h2>
-<p>All Images were created by the developer.</p>
