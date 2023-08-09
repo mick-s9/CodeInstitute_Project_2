@@ -42,5 +42,14 @@ Inside the game page there are three section:
 <img width="547" alt="image" src="https://github.com/mick-s9/CodeInstitute_Project_2/assets/65968792/5ff9ed70-a525-4258-b070-b41e795d8134">
 
 
+When you click on the chosen answer, a further section will appear containing an image and the "Next Question" button to move on to the next question:
+
+<div>
+<img width="498" alt="image" src="https://github.com/mick-s9/CodeInstitute_Project_2/assets/65968792/3c14894c-560c-4e8c-8eca-7ed113e2a889">
+<img width="319" alt="image" src="https://github.com/mick-s9/CodeInstitute_Project_2/assets/65968792/6ac3c8a5-425d-4024-bd4b-836743ae7922">
+</div>
+
+
+
 
 
