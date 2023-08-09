@@ -38,7 +38,9 @@ Inside the game page there are three section:
   <li>a section with the board showing the level and the score (number of correct answers for each level) - the score is reset to zero at each level</li>
 </ul>
 
-![image](https://github.com/mick-s9/CodeInstitute_Project_2/assets/65968792/c296c104-2b1e-4be5-882a-8ebbaef3d2e1)
+
+<img width="547" alt="image" src="https://github.com/mick-s9/CodeInstitute_Project_2/assets/65968792/5ff9ed70-a525-4258-b070-b41e795d8134">
+
 
 
 
