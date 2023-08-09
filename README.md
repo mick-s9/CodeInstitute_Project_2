@@ -110,25 +110,14 @@ move on to the next question:
 </ul>
 </p>
 
-<h2>Unfixed Bugs and Challenges</h2>
-<p>
-    While significant efforts were invested in testing, a few challenges were encountered:
-<ul>
-    <li>[Describe Bug 1]: A brief description of the bug or issue, along with its impact on the user experience.</li>
-    <li>[Describe Bug 2]: Another bug or issue that was identified during testing.</li>
-</ul>
-These challenges were not addressed in this release due to [reasons], which might include limitations of frameworks or
-technologies, time constraints, or complexity in implementation.
-</p>
+<h1>Deployment</h1>
+    <p>This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)</p>
 
-<h2>Ongoing Improvement</h2>
-<p>
-    Although every effort was made to ensure the smooth functioning of the quiz game, user feedback is invaluable for
-    continuous improvement. As the project evolves, these insights will be considered to address any undiscovered issues
-    and elevate the overall quality of the experience.
-</p>
-
-<p>
-    For a more detailed breakdown of testing results, including specific bug reports and further analysis, refer to the
-    separate <a href="link-to-testing-report.md">Testing Report</a>.
-</p>
+    <p>The site was deployed to GitHub Pages. The steps to deploy are as follows:</p>
+    <ol>
+        <li>In the GitHub repository, navigate to the Settings tab</li>
+        <li>From the source section drop-down menu, select the Master Branch</li>
+        <li>Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.</li>
+    </ol>
+    
+    <p>The live link can be found <a href="https://mick-s9.github.io/CodeInstitute_Project_2/">here</a>.</p>
