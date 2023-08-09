@@ -113,11 +113,11 @@ move on to the next question:
 <h1>Deployment</h1>
     <p>This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)</p>
 
-    <p>The site was deployed to GitHub Pages. The steps to deploy are as follows:</p>
-    <ol>
+<p>The site was deployed to GitHub Pages. The steps to deploy are as follows:</p>
+    <ul>
         <li>In the GitHub repository, navigate to the Settings tab</li>
         <li>From the source section drop-down menu, select the Master Branch</li>
         <li>Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.</li>
-    </ol>
-    
-    <p>The live link can be found <a href="https://mick-s9.github.io/CodeInstitute_Project_2/">here</a>.</p>
+    </ul>
+
+<p>The live link can be found <a href="https://mick-s9.github.io/CodeInstitute_Project_2/">here</a>.</p>
