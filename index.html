@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Electronic Music Quiz</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Handjet&display=swap" rel="stylesheet">
-  </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electronic Music Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Handjet&display=swap" rel="stylesheet">
 </head>
 <body>
   <div id="glitched-blocks" class="glitched-blocks"></div>
   <div class="quiz-container">
     <h1>Electronic Music Quiz</h1>
-    <p id="rules-game"></p>
+    <p id="rules-game">There are 3 levels in this quiz game, but you can only get one answer wrong for level!</p>
     <div class="user-section">
       <input type="text" id="username" placeholder="Enter your username">
       <button onclick="startQuiz()">Start Quiz</button>
@@ -28,8 +26,8 @@
       </div>
       <div class="feedback">
         <div id="div-feedback">
-          <img id="correct-img" class="img-feedback" src="./resources/correctAsset.png">
-          <img id="incorrect-img" class="img-feedback" src="./resources/incorrectAsset.png">
+          <img id="correct-img" alt="correct" class="img-feedback" src="./media/correctAsset.png">
+          <img id="incorrect-img" alt="incorrect" class="img-feedback" src="./media/incorrectAsset.png">
           <p id="feedback-text"></p>
         </div>
         <button onclick="nextQuestion()">Next Question</button>
@@ -44,4 +42,5 @@
   </div>
   <script src="script.js"></script>
 </body>
+
 </html>

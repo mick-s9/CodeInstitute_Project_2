@@ -158,6 +158,8 @@ h1 {
 
 #rules-game {
   font-size: 24px;
+  background-color: #00800096;
+  padding: 2px;
 }
 
 
@@ -198,8 +200,6 @@ body {
   }
 }
 
-
-/* Media query for smaller screens */
 @media (max-width: 500px) {
   .quiz-container {
     padding: 10px;
@@ -208,7 +208,7 @@ body {
   }
 
   #rules-game {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .glitched-blocks {
@@ -235,6 +235,7 @@ body {
   .level-section h2 {
     font-size: 24px;
   }
+
   .score-section h2 {
     font-size: 24px;
   }
@@ -242,5 +243,14 @@ body {
   .img-feedback {
     width: 32px;
     margin-bottom: 8px;
-}
+  }
+
+  .feedback {
+    margin-bottom: -5px;
+  }
+
+  .score-section h2,
+  .level-section h2 {
+    margin-bottom: -12px;
+  }
 }

@@ -77,12 +77,14 @@ let level3IncorrectAnswers = 0;
 
 const startQuiz = () => {
   const username = document.getElementById("username").value;
+
   if (username.trim() === "") {
     alert("Please enter a username.");
     return;
   }
 
-  document.getElementById("rules-game").innerText = "Hello " + username + "! Welcome to the Electronic Music Quiz. Careful, you can only get 1 wrong answer for each level"
+  document.querySelector("#rules-game").style.display = "block";
+  document.getElementById("rules-game").innerText = "Hello " + username + "! You can only get 1 wrong answer for each level"
   document.querySelector(".user-section").style.display = "none";
   document.querySelector(".quiz-section").style.display = "block";
   document.querySelector(".level-section").style.display = "block";
