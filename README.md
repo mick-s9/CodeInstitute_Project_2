@@ -102,7 +102,7 @@ move on to the next question:
         to best practices.</li>
     <li>CSS: The CSS code was validated using the official (Jigsaw) validator, which found no errors, ensuring a robust
         and compliant styling implementation.</li>
-    <li>CSS: The Js code was validated using jshint.com </li>
+    <li>Javascript: The Js code was validated using jshint.com </li>
 </ul>
 </p>
 
